@@ -13,4 +13,4 @@ function osUptime() {
     //return uptime;
 }
 
-module.exports = osUptime;
+exports.print = osUptime;
