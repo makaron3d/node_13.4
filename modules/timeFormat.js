@@ -2,7 +2,7 @@
 
 process.stdin.setEncoding('utf-8');
 
-function timer() {
+function timer(uptime) {
 
     var time = (uptime.toFixed(0)),
         restOfMin,
