@@ -19,4 +19,4 @@ function timer() {
 }
 
 
-exports.print = timer;
+exports.timer = timer;
