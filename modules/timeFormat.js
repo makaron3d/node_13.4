@@ -1,3 +1,5 @@
+//var timeFormat = require('./osInfo');
+
 process.stdin.setEncoding('utf-8');
 
 function timer() {
