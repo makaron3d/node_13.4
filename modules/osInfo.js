@@ -9,7 +9,7 @@ function osUptime() {
     //var updateTime = uptime.toFixed(0);
     //console.log('Uptime: ~ ' + uptime.toFixed(0) + ' sek.');
     //console.log(uptime.toFixed(0));
-    console.log(timeFormat.print(uptime));
+    console.log(timeFormat.timer(uptime));
     //return uptime;
 }
 
