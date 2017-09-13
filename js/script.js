@@ -1,4 +1,4 @@
-var osInfo = require('../modules/osInfo');
+var osUptime = require('../modules/osInfo');
 
 process.stdin.setEncoding('utf-8');
 
