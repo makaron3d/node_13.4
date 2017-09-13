@@ -1,4 +1,4 @@
-var mod = require('../modules/mod');
+var osInfo = require('../modules/osInfo');
 
 process.stdin.setEncoding('utf-8');
 

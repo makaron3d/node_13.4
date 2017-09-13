@@ -1,4 +1,5 @@
 var os = require('os');
+var timeFormat = require('./timeFormat');
 
 process.stdin.setEncoding('utf-8');
 
@@ -8,11 +9,8 @@ function osUptime() {
     //var updateTime = uptime.toFixed(0);
     //console.log('Uptime: ~ ' + uptime.toFixed(0) + ' sek.');
     //console.log(uptime.toFixed(0));
-    console.log(uptime);
+    console.log(timeFormat.timer(uptime));
     //return uptime;
 }
 
-//osUptime();
-
-//exports.print = osUptime;
-module.exports = osUptime();
+module.exports = osUptime;
